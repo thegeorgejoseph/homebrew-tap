@@ -5,11 +5,11 @@
 class Tlf < Formula
   desc ""
   homepage "https://github.com/thegeorgejoseph/tlf"
-  version "1.0.0"
+  version "1.1.1"
 
   on_macos do
-    url "https://github.com/thegeorgejoseph/tlf/releases/download/v1.0.0/tlf_Darwin_all.tar.gz"
-    sha256 "43be9490dfd2a8982cd6514b8223795eb7fb971860c038717dde6d7fe9fa1444"
+    url "https://github.com/thegeorgejoseph/tlf/releases/download/v1.1.1/tlf_Darwin_all.tar.gz"
+    sha256 "83fdc5c9ab26cebdec8211241136fbd5c0ab4094f6f34a638b1a3b54b9356d89"
 
     def install
       bin.install "tlf"
@@ -18,16 +18,16 @@ class Tlf < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/thegeorgejoseph/tlf/releases/download/v1.0.0/tlf_Linux_arm64.tar.gz"
-      sha256 "d7545d290fd3c5cd045d686d94191aaf41bfb9fe0abc80e1a5b0e0b8390624bc"
+      url "https://github.com/thegeorgejoseph/tlf/releases/download/v1.1.1/tlf_Linux_arm64.tar.gz"
+      sha256 "4e4c3f8cc9e1e3756b1587319770ecc7c4da8df41f44a2a000ae5ce41d62c987"
 
       def install
         bin.install "tlf"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/thegeorgejoseph/tlf/releases/download/v1.0.0/tlf_Linux_x86_64.tar.gz"
-      sha256 "baed9588b85e6e18994a59d1b3c9a75732e155f5734ed89a638d3912cc70da03"
+      url "https://github.com/thegeorgejoseph/tlf/releases/download/v1.1.1/tlf_Linux_x86_64.tar.gz"
+      sha256 "b98ee68fdf77c0b03539dc3e19ddea47cd32a06e670f98868adcb1648b6c734f"
 
       def install
         bin.install "tlf"
