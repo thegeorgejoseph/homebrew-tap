@@ -1,9 +1,9 @@
 class Mico < Formula
   desc "Mission control for local CLI AI agents"
   homepage "https://github.com/thegeorgejoseph/mico"
-  url "https://github.com/thegeorgejoseph/mico/releases/download/v0.1.2/mico-0.1.2-aarch64-apple-darwin.tar.gz"
-  sha256 "812faaae312a170e7c22434a9224f87cdd0c7d242eeb1e9eeba03ff15db06bc8"
-  version "0.1.2"
+  url "https://github.com/thegeorgejoseph/mico/releases/download/v0.1.3/mico-0.1.3-aarch64-apple-darwin.tar.gz"
+  sha256 "49fd0db4897458d2e7c1ae0ae4727287bee29489c25337fe62aa5299739f5dc0"
+  version "0.1.3"
 
   depends_on "tmux"
 
